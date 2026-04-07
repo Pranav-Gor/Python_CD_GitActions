@@ -3,7 +3,7 @@ from flask import Flask
 app = Flask(__name__)
 
 # Addition
-@app.route('/add')
+@app.route('/')
 def add():
     a = 10
     b = 5
